@@ -4,6 +4,9 @@ function agregarSimboloExclamacion(str) {
   // Por ejemplo: 
   // "hello world" ---> "hello world!"
   // Tu código:
-}
+  console.log(str+'!')
+};
+
+agregarSimboloExclamacion('Maxi');
 
 module.exports = agregarSimboloExclamacion;
